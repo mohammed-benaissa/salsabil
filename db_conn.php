@@ -1,6 +1,6 @@
 <?php  
 
-$sname = "Database";
+$sname = "127.0.0.1";
 $uname = "root";
 $password = "";
 
