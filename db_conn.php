@@ -1,10 +1,10 @@
 <?php  
 
-$sname = "127.0.0.1";
+$sname = $_ENV['MYSQL_HOST'];
 $uname = "root";
-$password = "";
+$password = $_ENV['MYSQL_ROOT_PASSWORD'];
 
-$db_name = "my_db";
+$db_name = $_ENV['MYSQL_DATABASE'];
 
 $conn  = mysqli_connect($sname, $uname, $password, $db_name);
 
